@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="icon" href="public/img/Click-Trading-Logo-1.jpeg">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-primar bg-primar fixed-top">
+
+        <div class="container">
+
+            <img src="public/img/Photoroom-20240509_004824.png" class="img-fluid es" alt="logo-0.1">
+            <button class="navbar-toggler btn btn-danger" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarS" aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-items">
+                        <a href="index.html" class="nav-link text-white">Inicio</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#" class="nav-link text-white">Academia</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="cursos.html" class="nav-link text-white">Cursos</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#" class="nav-link text-white">Servicios</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="contacto.html" class="nav-link text-white">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" aria-current="true"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="2" aria-current="true"
+                aria-label="Slide 3"></button>
+
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="public/img/Click-Trading-Logo-2-enhanced.png" class="" alt="Logo02">
+                <div class="carousel-caption">
+                    
+                    
+                </div>
+
+            </div>
+            <div class="carousel-item ">
+                <img src="public/img/Click-Trading-about-1.jpeg" class="" alt="Logo03">
+                <div class="carousel-caption">
+                   
+                  
+                </div>
+
+            </div>
+            <div class="carousel-item ">
+                <img src="public/img/Click-Trading-Logo-4.jpeg" class="" alt="logo04">
+                <div class="carousel-caption">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright"><a href="https://es.tradingview.com/" rel="noopener nofollow"
+                target="_blank"><span class="blue-text">Siga los mercados en TradingView</span></a></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
+            async>
+                {
+                    "symbols": [
+                        {
+                            "proName": "FOREXCOM:SPXUSD",
+                            "title": "S&P 500 Index"
+                        },
+                        {
+                            "proName": "FOREXCOM:NSXUSD",
+                            "title": "US 100 Cash CFD"
+                        },
+                        {
+                            "proName": "BITSTAMP:BTCUSD",
+                            "title": "Bitcoin"
+                        },
+                        {
+                            "proName": "BITSTAMP:ETHUSD",
+                            "title": "Ethereum"
+                        },
+                        {
+                            "description": "Futuros Gold",
+                            "proName": "COMEX:GC1!"
+                        },
+                        {
+                            "description": "Us30",
+                            "proName": "CAPITALCOM:US30"
+                        },
+                        {
+                            "description": "GBP/USD",
+                            "proName": "OANDA:GBPUSD"
+                        },
+                        {
+                            "description": "",
+                            "proName": "FX:EURUSD"
+                        }
+                    ],
+                        "showSymbolLogo": false,
+                            "isTransparent": false,
+                                "displayMode": "adaptive",
+                                    "colorTheme": "dark",
+                                        "locale": "es"
+                }
+            </script>
+    </div>
+    <!-- TradingView Widget END -->
+
+    <section class="about section-padging">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="public/img/about12.jpeg" class="img-fliud" alt="about-1">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text text-white text-center">
+                        <h2>Nosotros</h2>
+                        <p>Somos una familia, somos una idea, somos una visión, somos la unión de muchas fuerzas: la
+                            sinergia absoluta. 💯<br>
+                            Nos reunimos para cumplir aquellas cosas que parecían imposibles desde la comodidad de
+                            nuestras casas. ✨<br>
+                            Operar la bolsa de valores, aquel indomable ser que solo los más destacados podrían dominar.
+                            🧠<br>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="services section-padding">
+
+        <div class="container ali">
+            <div class="row ">
+                <div col-md-12>
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Servicios</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nesciunt distinctio
+                            molestiae harum ipsam provident tempora ad, ducimus, quo dolor exercitationem. Neque id
+                            maxime adipisci incidunt accusamus nobis fugiat provident!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row ali">
+                <div class="col-12 col-md-12 col-lg-4 ali ">
+                    <div class="card text-white text-center bg-dark pb-2" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="bi bi-book"></i>
+                            <h3 class="card-title">Cursos</h3>
+                            <p>🚀💼 ¡Estamos emocionados por compartir el crecimiento y expansión de Click Trading
+                                Academy!
+                                <br><br>
+                                Con nuestros cursos de trading y cuentas de fondeo, hemos ayudado a numerosos
+                                estudiantes a alcanzar sus metas financieras.
+                            </p>
+                            <button class="btn bg-primary text-white"> Mas información</button>
+                        </div>
+                    </div>
+                    <div class="card text-white text-center bg-dark pb-2" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="bi bi-robot"></i>
+                            <h3 class="card-title">Expertos en IA</h3>
+                            <p>🚀💼 ¡Estamos emocionados por compartir el crecimiento y expansión de Click Trading
+                                Academy!
+                                <br><br>
+                                Con nuestros cursos de trading y cuentas de fondeo, hemos ayudado a numerosos
+                                estudiantes a alcanzar sus metas financieras.
+                            </p>
+                            <button class="btn bg-primary text-white"> Mas información</button>
+                        </div>
+                    </div>
+                    <div class="card text-white text-center bg-dark pb-2" style="width: 18rem;">
+                        <div class="card-body">
+                            <i class="bi bi-cash-coin"></i>
+                            <h3 class="card-title">Asesoría y Consultoría Financiera</h3>
+                            <p>🚀💼 ¡Estamos emocionados por compartir el crecimiento y expansión de Click Trading
+                                Academy!
+                                <br><br>
+                                Con nuestros cursos de trading y cuentas de fondeo, hemos ayudado a numerosos
+                                estudiantes a alcanzar sus metas financieras.
+                            </p>
+                            <button class="btn bg-primary text-white"> Mas información</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="porfolio section-padding">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Click Trading Academy</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="public/img/Click-Trading-analisis.jpeg" alt="Click_analisis">
+                            </div>
+                            <h3>Analisis Técnico</h3>
+                            <p>
+                                Comprender cómo leer gráficos y reconocer patrones es esencial para tomar decisiones
+                                informadas. El análisis técnico enriquece tu perspectiva y te ayuda a anticipar
+                                movimientos del mercado.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="public/img/Click-Trading-Sinteticos.jpeg" alt="Click_sinteticos">
+                            </div>
+                            <h3>Trading Sinteticos</h3>
+                            <p>
+                                Comprender cómo leer gráficos y reconocer patrones es esencial para tomar decisiones
+                                informadas. El análisis técnico enriquece tu perspectiva y te ayuda a anticipar
+                                movimientos del mercado.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center bg-dark pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="public/img/Click-Trading-Fundamental.jpeg" alt="Click_fundamental">
+                            </div>
+                            <h3>Analisis Fundamental</h3>
+                            <p>
+                                Aprender los fundamentos del trading no solo te permite administrar tus inversiones de
+                                manera inteligente, sino que también te brinda la habilidad de detectar señales de
+                                alerta y protegerte de posibles fraudes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="team section-padding">
+
+        <div class="row">
+            <div class="col-mb-12">
+                <div class="section-header text-center text-white pb-5">
+                    <h2>Equipo</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, vitae perferendis praesentium
+                        impedit molestias suscipit doloremque at, quaerat voluptates autem fugit. Explicabo, rem
+                        ratione. Corporis quaerat nesciunt quis sit aliquam!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center bg-dark">
+                    <div class="card-body text-white">
+                        <img src="public/img/LuisF-perfil-2.jpeg" class="img-fluid rounded-circle" alt="LuisF-1">
+                        <h3 class="card-title py-2">Luis Fernando</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt recusandae officiis,
+                            dolore illo animi dicta incidunt molestiae fugiat a dolores quasi maiores. Officia facilis
+                            mollitia quam dolores vero nostrum quo.
+                        </p>
+                        <p class="socials">
+                            <i class="bi bi-twitter text-white mx-1"></i>
+                            <i class="bi bi-facebook text-white mx-1"></i>
+                            <i class="bi bi-instagram text-white mx-1"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center bg-dark">
+                    <div class="card-body text-white">
+                        <img src="public/img/Edwin-perfil.jpeg" class="img-fluid rounded-circle" alt="Edwin-1">
+                        <h3 class="card-title py-2">Edwin</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt recusandae officiis,
+                            dolore illo animi dicta incidunt molestiae fugiat a dolores quasi maiores. Officia facilis
+                            mollitia quam dolores vero nostrum quo.
+                        </p>
+                        <p class="socials">
+                            <i class="bi bi-twitter text-white mx-1"></i>
+                            <i class="bi bi-facebook text-white mx-1"></i>
+                            <i class="bi bi-instagram text-white mx-1"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center bg-dark">
+                    <div class="card-body text-white">
+                        <img src="public/img/Camilo-perfil-2.jpeg" class="img-fluid rounded-circle" alt="Camilo-1">
+                        <h3 class="card-title py-2">Camilo</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt recusandae officiis,
+                            dolore illo animi dicta incidunt molestiae fugiat a dolores quasi maiores. Officia facilis
+                            mollitia quam dolores vero nostrum quo.
+                        </p>
+                        <p class="socials">
+                            <i class="bi bi-twitter text-white mx-1"></i>
+                            <i class="bi bi-facebook text-white mx-1"></i>
+                            <i class="bi bi-instagram text-white mx-1"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card text-center bg-dark">
+                    <div class="card-body text-white">
+                        <img src="public/img/Juan-perfil.jpeg" class="img-fluid rounded-circle" alt="Juan-1">
+                        <h3 class="card-title py-2">Juan</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt recusandae officiis,
+                            dolore illo animi dicta incidunt molestiae fugiat a dolores quasi maiores. Officia facilis
+                            mollitia quam dolores vero nostrum quo.
+                        </p>
+                        <p class="socials">
+                            <i class="bi bi-twitter text-white mx-1"></i>
+                            <i class="bi bi-facebook text-white mx-1"></i>
+                            <i class="bi bi-instagram text-white mx-1"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="bg-dark p-2 text-center">
+        <div class="container nue">
+
+            <a href="https://api.whatsapp.com/send/?phone=573246084623&text=Bienvenido+a+Click+Trading+Academy%2C+pregunta+por+nuestros+servicios+y+reclama+tu+premio+por+habernos+contactado&type=phone_number&app_absent=0"
+                target="_blank" style="text-decoration: none; color: rgb(255, 255, 255);">
+                <i class=" bi bi-whatsapp" ></i>
+              </a>
+              <a href=" https://www.instagram.com/clicktradingeje/" target="_blank"
+                style="text-decoration: none; color: rgb(255, 255, 255);">
+                <i class="bi bi-instagram "></i>
+                <a href="https://maps.app.goo.gl/cVruMzFhPbDQV3eX8" target="_blank" style="text-decoration: none; color: rgb(255, 255, 255);">
+                    <i class="bi bi-geo-alt" "></i>
+                  </a>
+                <i class="text-white"><a href="index.html" target="_blank"
+                        style="text-decoration: none; color: rgb(255, 255, 255);">Click Trading Academy</a></i>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
